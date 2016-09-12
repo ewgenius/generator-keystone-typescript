@@ -1,0 +1,17 @@
+{
+  "name": "<%= utils.slug(projectName) =%>",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js"
+  },
+  "engines": {
+    "node": "6"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "keystone": "git+https://github.com/keystonejs/keystone.git#v4.0.0-beta.1",
+    "underscore": "^1.8.3"
+  }
+}
